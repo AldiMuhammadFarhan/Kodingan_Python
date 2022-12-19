@@ -1,0 +1,23 @@
+Encapsulation: Menyembunyikan sebagian detail yang dimiliki oleh sebuah objek terhadap objek-objek lainnya.
+Inheritance: Menurunkan serangkaian fungsi-fungsi yang dimiliki oleh sebuah objek ke sebuah objek baru tanpa mengubah makna dari objek acuan yang digunakan.
+Polymorphism: Konsep untuk menggunakan fungsi-fungsi dengan nama/ tujuan yang sama dengan cara yang berbeda.
+
+Dalam sebuah class, aku dapat mendefinisikan dua jenis atribut yaitu:
+Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek dari sebuah
+Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.
+
+Enkapsulasi (Encapsulation) adalah sebuah teknik dalam OOP yang mengizinkan aku untuk menyembunyikan detil dari sebuah atribut dalam sebuah class. Pada 
+contoh-contoh sebelumnya, setiap atribut dan fungsi yang telah aku definisikan belum menggunakan konsep enkapsulasi, yang mengartikan bahwa setiap atribut 
+dan fungsi dapat diakses di luar class.
+
+Terdapat 2 macam access modifier dalam Python, yakni.
+
+Public access: dapat aku definisikan dengan secara langsung menuliskan nama dari atribut/ fungsi. Dalam sebuah objek, atribut/fungsi 
+yang bersifat public access dapat diakses di luar scope sebuah class
+Private access: dapat aku definisikan dengan menambahkan double underscore (__) sebelum menuliskan nama dari atribut/fungsi. Dalam sebuah objek, 
+atribut/fungsi yang bersifat private access hanya dapat diakses di dalam scope sebuah class.
+
+Inheritance adalah salah satu mekanisme di konsep OO yang mengizinkan aku untuk mendefinisikan sebuah class baru berdasarkan class yang sebelumnya telah 
+dideklarasikan.
+
+Metode overloading mengizinkan sebuah class untuk memiliki sekumpulan fungsi dengan nama yang sama dan parameter yang berbeda.
